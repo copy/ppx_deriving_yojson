@@ -15,7 +15,7 @@ module String : (module type of String)
 module Bytes : (module type of Bytes)
 module Int32 : (module type of Int32)
 module Int64 : (module type of Int64)
-module Nativeint : (module type of Nativeint)
+(* module Nativeint : (module type of Nativeint) *)
 module Array : (module type of Array)
 module Result : sig
   type ('a, 'b) t = ('a, 'b) result =
